@@ -32,3 +32,11 @@ This pattern is best for when the steps are known at design time. If they change
 pattern might be better. 
 
 
+*** Singleton ***
+
+  This is simply a class which can only ever be instantiated once. This is useful when you need to keep
+  track of something across the entire application which can be changed by different users or at different 
+  point. It is useful to note that according to Microsoft Statics are not singletons and thus not threadsafe. 
+
+
+

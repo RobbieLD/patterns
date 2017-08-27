@@ -7,6 +7,9 @@ namespace Patterns.Runner
     {
         static void Main(string[] args)
         {
+            // Singleton Pattern
+            SingletonRunner.Run();
+
             // Decorator Pattern
             DecoratorRunner.Run();
 
