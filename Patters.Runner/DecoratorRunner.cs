@@ -1,4 +1,5 @@
 ﻿using Patterns.Decorator;
+using System;
 
 namespace Patterns.Runner
 {
@@ -6,6 +7,8 @@ namespace Patterns.Runner
     {
         public static void Run()
         {
+            Console.WriteLine($"{Environment.NewLine}*** DECORATOR PATTERN ***{Environment.NewLine}");
+
             // Create Some Bikes
             MountainBike mBike = new MountainBike("Red", 16, 85, 2);
             mBike.Display();

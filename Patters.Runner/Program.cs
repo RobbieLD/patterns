@@ -9,7 +9,10 @@ namespace Patterns.Runner
         {
             // Decorator Pattern
             DecoratorRunner.Run();
-            
+
+            // Temaplte Pattern
+            TemplateRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              
