@@ -3,7 +3,7 @@ A library demonstrating various software patterns for educational purposes
 
 Thus far the library contains the following patterns
 
-*** DECORATOR ***
+*** Decorator ***
 
 The decorator pattern is a way of adding functionality to a class by decorating it with another class.
 This is usefull is you have several classes which might need various bits of functionality added 
@@ -38,5 +38,17 @@ pattern might be better.
   track of something across the entire application which can be changed by different users or at different 
   point. It is useful to note that according to Microsoft Statics are not singletons and thus not threadsafe. 
 
+
+*** Observer ***
+
+This pattern is used to allow an object to maintain a list of observers which it notifies of a change. 
+
+For example imagine a bike manufacturing company who maintain a list of bike shops they notify about 
+new models of their bikes. 
+
+One issues with this can be that for long lived objects, if an observer gets set to null, the garbarge 
+collection for this object won't happen because a reference to it in the list of observers is still held. 
+This can be over come by using weak references and removing the observer from the list of observers
+when it's no longer in use. See the code for how this is done. 
 
 

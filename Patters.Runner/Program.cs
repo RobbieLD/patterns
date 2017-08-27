@@ -16,6 +16,9 @@ namespace Patterns.Runner
             // Temaplte Pattern
             TemplateRunner.Run();
 
+            // Observer Pattern
+            ObserverRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              
