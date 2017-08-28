@@ -52,7 +52,7 @@ This can be over come by using weak references and removing the observer from th
 when it's no longer in use. See the code for how this is done. 
 
 
-*** PublisherSubscriber ***
+*** Publisher Subscriber ***
 
 This pattern is very similar to the observer pattern but in this case the publisher doesn't know 
 about subscribers unlike in the observer pattern when the observers are known and managed by the publisher.
@@ -71,3 +71,13 @@ as they subscribe to a common interface you can get what ever kindof object you 
 For example imagine several different type of bikes. As long they are all subscribe to the IBike interface you
 can have a factory create you any one you like and you'll still be able to ride (use) it.
 
+*** Abstract Factory ***
+
+The abstract factory is much like the basic factory but instead of having a single factory which takes care 
+of all theobject creation we instead have a factory for each group of objects we want to create. 
+
+For example instead of having one single bike factory that has some logic inside it to work out which 
+bike it should make, we instead have one base abstract factory. Then we have individual bike factories
+for each type of bike which are called from the shops we want to sell those bikes at. Thus we can simply
+create a bike shop of what ever type of bike we want and have it create (using the apropriate factory) the
+bikes it needs. 

@@ -25,6 +25,9 @@ namespace Patterns.Runner
             // Factory Pattern
             FactoryRunner.Run();
 
+            // Abstract Factory Pattern
+            AbstractFactoryRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              
