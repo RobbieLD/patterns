@@ -19,6 +19,9 @@ namespace Patterns.Runner
             // Observer Pattern
             ObserverRunner.Run();
 
+            // PublishSubscriber
+            PublishSubscribeRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

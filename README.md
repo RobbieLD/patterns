@@ -52,3 +52,12 @@ This can be over come by using weak references and removing the observer from th
 when it's no longer in use. See the code for how this is done. 
 
 
+*** PublisherSubscriber ***
+
+This pattern is very similar to the observer pattern but in this case the publisher doesn't know 
+about subscribers unlike in the observer pattern when the observers are known and managed by the publisher.
+
+For example imagine a bike shop which puts out notifications about new bikes they sell. Rather than maintining
+a list of everyone who might be interested in a bike they simply make a broadcast and let anyone who's 
+interested listen to and act on that broadcasts. 
+

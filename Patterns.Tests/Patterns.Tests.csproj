@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DecoratorPattern\Patterns.Decorator.csproj" />
+    <ProjectReference Include="..\Pattern.Decorator\Patterns.Decorator.csproj" />
     <ProjectReference Include="..\Patterns.Observer\Patterns.Observer.csproj" />
     <ProjectReference Include="..\Patterns.Singleton\Patterns.Singleton.csproj" />
     <ProjectReference Include="..\Patterns.Template\Patterns.Template.csproj" />
