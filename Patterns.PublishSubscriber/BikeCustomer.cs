@@ -8,18 +8,24 @@ namespace Patterns.PublishSubscriber
     {
         private readonly string _name;
         private readonly IBikeShop _shop;
+
         public BikeCustomer(IBikeShop shop, string name)
         {
             _shop = shop;
             _name = name;
 
             _shop.NewBikeArrivedEvent += HandleNewBikeEvents;
-            /**
-             * TODO: Instead of the normal way of the simply way of subscribing to events
-             * and then either allowing the GC to clean up after you or implimenting 
-             * IDispoable, we're going to use The WeakEventPattern here. 
-             */
+            
+        }
 
+        /// <summary>
+        /// This method should always be called before the object is disposed. We could impliment 
+        /// IDisposable however this is not recomened my MS. Instead we should explicitly unsubscribe
+        /// from events before we dispose of the subscriber objects.
+        /// </summary>
+        public void UnsubscribeFromNewBikeNotifications()
+        {
+            _shop.NewBikeArrivedEvent -= HandleNewBikeEvents;
         }
 
         private void HandleNewBikeEvents(object sender, NewBikeEventArgs args)
