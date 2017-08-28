@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Pattern.Decorator\Patterns.Decorator.csproj" />
+    <ProjectReference Include="..\Patterns.Factory\Patterns.Factory.csproj" />
     <ProjectReference Include="..\Patterns.Observer\Patterns.Observer.csproj" />
     <ProjectReference Include="..\Patterns.PublishSubscriber\Patterns.PublishSubscriber.csproj" />
     <ProjectReference Include="..\Patterns.Singleton\Patterns.Singleton.csproj" />

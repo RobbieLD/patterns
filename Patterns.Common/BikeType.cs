@@ -3,6 +3,7 @@
     public enum BikeType
     {
         Mountain,
-        Road
+        Road,
+        Hybrid
     }
 }

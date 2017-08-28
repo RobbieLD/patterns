@@ -61,3 +61,13 @@ For example imagine a bike shop which puts out notifications about new bikes the
 a list of everyone who might be interested in a bike they simply make a broadcast and let anyone who's 
 interested listen to and act on that broadcasts. 
 
+
+*** Factory ***
+
+A factory is a method is a means of abstracting the creation of an object away from it's use. Instead of newing 
+and object and then using it straight away, using a factory to create your objects for you means that as long 
+as they subscribe to a common interface you can get what ever kindof object you need from the factory. 
+
+For example imagine several different type of bikes. As long they are all subscribe to the IBike interface you
+can have a factory create you any one you like and you'll still be able to ride (use) it.
+

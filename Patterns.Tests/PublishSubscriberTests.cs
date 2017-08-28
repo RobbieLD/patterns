@@ -1,9 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using Patterns.PublishSubscriber;
-using Moq;
 using System.IO;
 
 namespace Patterns.Tests
