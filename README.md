@@ -81,3 +81,14 @@ bike it should make, we instead have one base abstract factory. Then we have ind
 for each type of bike which are called from the shops we want to sell those bikes at. Thus we can simply
 create a bike shop of what ever type of bike we want and have it create (using the apropriate factory) the
 bikes it needs. 
+
+
+*** Stratergy ***
+
+
+This pattern allows the changing of an algorithm's behavior at run time. Bascialy you have a class that 
+performs some kind of algorithm but it can have the logic that changed because it's been abstracted out 
+into an interface. 
+
+For example imagine a set on instructions to build a bike and a class that does the building. You could 
+change the way the bike is built by passing in a different set of instructions to the bike building class. 

@@ -28,6 +28,9 @@ namespace Patterns.Runner
             // Abstract Factory Pattern
             AbstractFactoryRunner.Run();
 
+            // Stratergy Pattern
+            StratergyRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              
