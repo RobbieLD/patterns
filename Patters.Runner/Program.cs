@@ -34,6 +34,9 @@ namespace Patterns.Runner
             // Prototype Pattern
             PrototypeRunner.Run();
 
+            // Builder Pattern
+            BuilderRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

@@ -103,3 +103,15 @@ can then modify any additional properties as you need.
 
 For example imagine a bike production line. You want to be able to keep cloning bikes while only changing 
 the serial number and leaving all the other properties the same. 
+
+
+
+*** Builder ***
+
+The builder provides a means of having a complex object constructed in a variety of predefined ways. It lets
+a class create objects of a various type (interface or abstract class) with out worrying about the exact logic
+of how they are created. 
+
+For example imagine a bike factory where you have a bike builder that  can create a mountain bike. You also
+have a builder that can make a road bike. Then you can simply pass instances of your various builders into 
+your production class and it'll create as many of them as you need. 
