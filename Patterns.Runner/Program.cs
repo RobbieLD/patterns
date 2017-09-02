@@ -37,6 +37,12 @@ namespace Patterns.Runner
             // Builder Pattern
             BuilderRunner.Run();
 
+            // Adapter Pattern
+            AdapterRunner.Run();
+
+            // Facade Pattern
+            FacadeRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

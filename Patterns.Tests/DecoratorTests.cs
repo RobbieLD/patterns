@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Patterns.Decorator;
 
 namespace Patterns.Decorator.Tests
 {

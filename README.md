@@ -115,3 +115,30 @@ of how they are created.
 For example imagine a bike factory where you have a bike builder that  can create a mountain bike. You also
 have a builder that can make a road bike. Then you can simply pass instances of your various builders into 
 your production class and it'll create as many of them as you need. 
+
+
+*** Adapter ***
+
+The adapter pattern allows you to create mapping code to convert one interface into another one. This is 
+useful to avoid gluing your code to a particular implimentation of a third party provider of services. 
+
+Imagine you have to supplies or bikes to you bike shop. A mountain bike supplier and a road bike supplier. 
+You want to be able to call the same methods on each of them but their suppliers sell the bikes with 
+different methods built in. You can simply create an adapter to convert one to the other. This is as simple
+as creating an adapter class which impliments the interface which will be common between the bike types
+and then adding an instance of which ever bike you're adapting to the adapter class. You can then
+provide your own code to convert the types and methods from the custom bike provider versions
+into your own common interface. 
+
+
+*** Facade ***
+
+
+The Facade pattern is very similar to to adapter pattern but instead of creating one interface to make 
+one object look and behave like another one, the facade pattern creates an interface to select various 
+methods and types from various other interfaces and cherry pick/rename/ammed the methods and types you
+want on your new master interface. 
+
+Imagine a bike shop which needs bike parts from three different suppliers of bike parts. They want the 
+wheels from one, the breaks from another and the shocks from a third. A facade could be built so that 
+a call to get the breaks simply works out which parts supplier it should go to, to get the brakes. 

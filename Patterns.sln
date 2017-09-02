@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Decorator", "Pattern.Decorator\Patterns.Decorator.csproj", "{80DA5AB4-1769-41E8-AD86-D003073D2251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Decorator", "Patterns.Decorator\Patterns.Decorator.csproj", "{80DA5AB4-1769-41E8-AD86-D003073D2251}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Tests", "Patterns.Tests\Patterns.Tests.csproj", "{021B3408-F133-4D61-86BE-BE07C28D7322}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Runner", "Patters.Runner\Patterns.Runner.csproj", "{A7E0CD18-0B38-4699-9D80-F0667B6EB8A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Runner", "Patterns.Runner\Patterns.Runner.csproj", "{A7E0CD18-0B38-4699-9D80-F0667B6EB8A2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Template", "Patterns.Template\Patterns.Template.csproj", "{0C7160AE-B24F-4AB9-841A-E8EF4CB43A8F}"
 EndProject
@@ -30,9 +30,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.AbstractFactory", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Stratergy", "Patterns.Stratergy\Patterns.Stratergy.csproj", "{8F4DED80-3228-4213-BB5C-796EA9DFC82E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Prototype", "Patterns.Prototype\Patterns.Prototype.csproj", "{08CC8C6A-CBCC-4578-9576-CB443E70BE73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Prototype", "Patterns.Prototype\Patterns.Prototype.csproj", "{08CC8C6A-CBCC-4578-9576-CB443E70BE73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Builder", "Patterns.Builder\Patterns.Builder.csproj", "{2282921F-AD17-423B-AC65-6D0A4E292C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Builder", "Patterns.Builder\Patterns.Builder.csproj", "{2282921F-AD17-423B-AC65-6D0A4E292C61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Adapter", "Patterns.Adapter\Patterns.Adapter.csproj", "{D21D0FF3-A085-42FB-BF76-07BD867F06E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Facade", "Patterns.Facade\Patterns.Facade.csproj", "{6F79CE87-D825-43F3-A2B0-868D17089C16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +96,14 @@ Global
 		{2282921F-AD17-423B-AC65-6D0A4E292C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2282921F-AD17-423B-AC65-6D0A4E292C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2282921F-AD17-423B-AC65-6D0A4E292C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21D0FF3-A085-42FB-BF76-07BD867F06E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21D0FF3-A085-42FB-BF76-07BD867F06E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21D0FF3-A085-42FB-BF76-07BD867F06E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21D0FF3-A085-42FB-BF76-07BD867F06E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F79CE87-D825-43F3-A2B0-868D17089C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F79CE87-D825-43F3-A2B0-868D17089C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F79CE87-D825-43F3-A2B0-868D17089C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F79CE87-D825-43F3-A2B0-868D17089C16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
