@@ -31,6 +31,9 @@ namespace Patterns.Runner
             // Stratergy Pattern
             StratergyRunner.Run();
 
+            // Prototype Pattern
+            PrototypeRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

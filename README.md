@@ -92,3 +92,14 @@ into an interface.
 
 For example imagine a set on instructions to build a bike and a class that does the building. You could 
 change the way the bike is built by passing in a different set of instructions to the bike building class. 
+
+
+*** Prototype ***
+
+This provides a method for duplicating an object with while letting the object worry about the exact logic
+how how it's done. The interface the object is coded to simply enforces the object must provide a clone method. 
+This can then be use to duplicate an object with all the original property values in the new object. You 
+can then modify any additional properties as you need.
+
+For example imagine a bike production line. You want to be able to keep cloning bikes while only changing 
+the serial number and leaving all the other properties the same. 

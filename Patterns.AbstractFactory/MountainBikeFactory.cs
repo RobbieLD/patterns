@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Patterns.AbstractFactory
+﻿namespace Patterns.AbstractFactory
 {
     public class MountainBikeFactory : AbstractBikeFactory
     {
