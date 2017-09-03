@@ -43,6 +43,9 @@ namespace Patterns.Runner
             // Facade Pattern
             FacadeRunner.Run();
 
+            // Command Pattern
+            CommandRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              
