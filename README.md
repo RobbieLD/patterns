@@ -142,3 +142,16 @@ want on your new master interface.
 Imagine a bike shop which needs bike parts from three different suppliers of bike parts. They want the 
 wheels from one, the breaks from another and the shocks from a third. A facade could be built so that 
 a call to get the breaks simply works out which parts supplier it should go to, to get the brakes. 
+
+
+*** Command ***
+
+
+The command pattern allows a class to control a flow of steps which being able to progress backwards (option)
+in the flow if it needs to. This is useful to decouple of actual logic behind each step with the managment 
+of the steps.
+
+Imagine a bike rider who can turn left or right and go forwards or backwards. We can use a command pattern
+to issue commands to him to ride in any direction and we can keep track of his steps so we can ask him
+to undo any number of them. It is importatnt to note that we can't go back to an arbitary state in the 
+history of the commands, we can only go back one command at a time (think linked list).
