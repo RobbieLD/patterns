@@ -46,6 +46,9 @@ namespace Patterns.Runner
             // Command Pattern
             CommandRunner.Run();
 
+            // Memento Pattern
+            MementoRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

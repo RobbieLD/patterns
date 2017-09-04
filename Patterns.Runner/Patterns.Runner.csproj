@@ -13,6 +13,7 @@
     <ProjectReference Include="..\Patterns.Decorator\Patterns.Decorator.csproj" />
     <ProjectReference Include="..\Patterns.Facade\Patterns.Facade.csproj" />
     <ProjectReference Include="..\Patterns.Factory\Patterns.Factory.csproj" />
+    <ProjectReference Include="..\Patterns.Memento\Patterns.Memento.csproj" />
     <ProjectReference Include="..\Patterns.Observer\Patterns.Observer.csproj" />
     <ProjectReference Include="..\Patterns.Prototype\Patterns.Prototype.csproj" />
     <ProjectReference Include="..\Patterns.PublishSubscriber\Patterns.PublishSubscriber.csproj" />

@@ -155,3 +155,14 @@ Imagine a bike rider who can turn left or right and go forwards or backwards. We
 to issue commands to him to ride in any direction and we can keep track of his steps so we can ask him
 to undo any number of them. It is importatnt to note that we can't go back to an arbitary state in the 
 history of the commands, we can only go back one command at a time (think linked list).
+
+
+*** Memento ***
+
+
+Like the command pattern the memonto pettern enables the saving of an object's state. Unlike the command pattern 
+where we can only go back and forth along the history of the object, the memento patter simply creates a snapshop
+of an object (a memento) which can be restored back at a later time. 
+
+Imagine a bike race and everytime you go through a checkpoint you want to be able to return to that point 
+if you need to. The memento pattern can easily acumplish this.
