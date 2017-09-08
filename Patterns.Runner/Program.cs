@@ -52,6 +52,9 @@ namespace Patterns.Runner
             // Bridge Pattern
             BridgeRunner.Run();
 
+            // Proxy Pattern
+            ProxyRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Patterns.Decorator;
 
-namespace Patterns.Decorator.Tests
+namespace Patterns.Tests
 {
     [TestClass]
     public class DecoratorTests

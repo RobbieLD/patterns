@@ -10,7 +10,7 @@ namespace Patterns.Tests
 
         [TestMethod]
         [TestCategory("Bridge")]
-        public void PartsSupplier_GetMethods_CallCorrectSuppliers()
+        public void Rider_Ride_CallCorrectBridgeInstanceRideMethod()
         {
             // Arrange
             AbstractRider rider = new Rider("Rob");
