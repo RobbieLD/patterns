@@ -58,6 +58,9 @@ namespace Patterns.Runner
             // Composite Pattern
             CompositeRunner.Run();
 
+            // Flyweight Pattern
+            FlyweightRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              
