@@ -49,6 +49,9 @@ namespace Patterns.Runner
             // Memento Pattern
             MementoRunner.Run();
 
+            // Bridge Pattern
+            BridgeRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

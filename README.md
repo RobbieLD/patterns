@@ -166,3 +166,76 @@ of an object (a memento) which can be restored back at a later time.
 
 Imagine a bike race and everytime you go through a checkpoint you want to be able to return to that point 
 if you need to. The memento pattern can easily acumplish this.
+
+
+*** Bridge ***
+
+The bridge pattern is a way of swapping out the actual implimentation of a class 
+at run time while preverving it's functionality. This is done by having the 
+implimentations details contained inside an instance variable of the main class 
+which can be changed (through accessor functions) when ever needed while out affecting 
+the way the main class is caleld or used. 
+
+For example imagine a bike rider which want's to ride a bike. However we want to be 
+able to change the bike rider class at run time so they rider can ride any kind
+of bike as long as the bike impliments a common interface. 
+
+*** Proxy ***
+
+
+The proxy pattern is where an interface is implimented by a class, usually making
+some kind of call to a third party application or service. To use this we then use
+a proxy class which also impliments the same interface but contains an instance of
+the original class (the actual implimentation). This allows for the details of 
+creating the service and the authenticaion and such to be hidden in side the original 
+class and the proxy to just handle callign the correct methods.
+
+For example imagine a bike shop that needs to check sto levels in it's warehouses.
+the warehouses expose services to check their stock levels. We can then make a class
+which does the checking of stock levels and a proxy for this which impliments the same
+interface but contains an instance to the original implimentation. 
+
+
+*** Compisite ***
+
+
+The compisite pattern is bascialyl a tree data structure. It allows the addition of 
+leaf nodes which end the branch they are attached to and also compisite nodes which
+them selves can contain child nodes. This pattern also allows a compisitie note 
+to expose a means of traversing the tree.
+
+For example imagine a tree structure representing various different types of bikes.
+At the root of the tree is a basic bikes and the further down the tree you go
+the more specialised the bike becomes and the more it diverges from the original bike. 
+The leaf nodes (end nodes) are the production bikes which go on sale to the clients
+where as the compisite nodes are the prototype bikes which lead to final version of
+production bikes. 
+
+
+*** Flyweight ***
+
+The flyweight pattern is used to control a large number of objects all inheriteded 
+from the same base type. A factory class is used to lazily create these as needed
+and return them as needed. 
+
+Imagine a bike race where there are hundreds of bikes but only a few different types
+the bikes can be. Instead of making hundreds of classes or instantiating the several
+classes hundreds of times, a flyweight implimentation will handle the creation of the
+bike types and everytime a particular type is needed, it will return either the instance
+it's already created or a new one if this type hasn't been used before. This was there
+is every only the minimum required number of instantiated classes to represent all the 
+bikes in the race. 
+
+*** State ***
+
+This pattern allows an object to maintain and internal state which can change based on 
+property changes or method calls. This internal state has changes the internal 
+functionality of the object making it look a bit like it's changed type. This is done
+by having a state class instance variable in the main class which can be swapped for
+another state calss if some condition is met that requires a state change.
+
+For example imagine a Bike which changes from a Road bike to a mountain bike depending
+on the addition or removal of various componants. If you have a bike is behaves like a 
+road bike until you add shocks then it behaves like a mountain hybrid bike until you 
+add disc brakes and then it changes to a mountain bike. If you remove these parts
+it will change back to a road bike. 

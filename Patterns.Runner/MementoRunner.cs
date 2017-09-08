@@ -1,5 +1,5 @@
 ﻿using Patterns.Memento;
-using System.Collections.Generic;
+using System;
 
 namespace Patterns.Runner
 {
@@ -7,6 +7,8 @@ namespace Patterns.Runner
     {
         public static void Run()
         {
+            Console.WriteLine($"{Environment.NewLine}*** MEMENTO PATTERN ***{Environment.NewLine}");
+
             BikeRace race = new BikeRace(new string[] { "Tom", "Dick", "Harry", "Bill", "Jim", "Rick", "Fred", "Joe", "Dan", "Gav", "Mark", "Henry" });
 
             // Run to first checkpoint

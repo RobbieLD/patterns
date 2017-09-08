@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Patterns.AbstractFactory\Patterns.AbstractFactory.csproj" />
     <ProjectReference Include="..\Patterns.Adapter\Patterns.Adapter.csproj" />
+    <ProjectReference Include="..\Patterns.Bridge\Patterns.Bridge.csproj" />
     <ProjectReference Include="..\Patterns.Builder\Patterns.Builder.csproj" />
     <ProjectReference Include="..\Patterns.Command\Patterns.Command.csproj" />
     <ProjectReference Include="..\Patterns.Decorator\Patterns.Decorator.csproj" />

@@ -40,7 +40,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Facade", "Patterns
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Command", "Patterns.Command\Patterns.Command.csproj", "{1E633AFC-A86D-46FA-90AE-1B8C50ADE097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Memento", "Patterns.Memento\Patterns.Memento.csproj", "{61002E07-59CF-49FC-982B-DCAD20E52FB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Memento", "Patterns.Memento\Patterns.Memento.csproj", "{61002E07-59CF-49FC-982B-DCAD20E52FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Bridge", "Patterns.Bridge\Patterns.Bridge.csproj", "{7539005F-EAF9-4543-AD59-BE3ECF7045F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,6 +118,10 @@ Global
 		{61002E07-59CF-49FC-982B-DCAD20E52FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61002E07-59CF-49FC-982B-DCAD20E52FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61002E07-59CF-49FC-982B-DCAD20E52FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7539005F-EAF9-4543-AD59-BE3ECF7045F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7539005F-EAF9-4543-AD59-BE3ECF7045F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7539005F-EAF9-4543-AD59-BE3ECF7045F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7539005F-EAF9-4543-AD59-BE3ECF7045F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
