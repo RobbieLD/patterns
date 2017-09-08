@@ -55,6 +55,9 @@ namespace Patterns.Runner
             // Proxy Pattern
             ProxyRunner.Run();
 
+            // Composite Pattern
+            CompositeRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

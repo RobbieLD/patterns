@@ -17,6 +17,7 @@
     <ProjectReference Include="..\Patterns.Bridge\Patterns.Bridge.csproj" />
     <ProjectReference Include="..\Patterns.Builder\Patterns.Builder.csproj" />
     <ProjectReference Include="..\Patterns.Command\Patterns.Command.csproj" />
+    <ProjectReference Include="..\Patterns.Compisite\Patterns.Compisite.csproj" />
     <ProjectReference Include="..\Patterns.Decorator\Patterns.Decorator.csproj" />
     <ProjectReference Include="..\Patterns.Facade\Patterns.Facade.csproj" />
     <ProjectReference Include="..\Patterns.Factory\Patterns.Factory.csproj" />
