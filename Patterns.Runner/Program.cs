@@ -64,6 +64,9 @@ namespace Patterns.Runner
             // State Pattern
             StateRunner.Run();
 
+            // Iterator Pattern
+            IteratorRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

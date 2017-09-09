@@ -239,3 +239,17 @@ on the addition or removal of various componants. If you have a bike is behaves 
 road bike until you add shocks then it behaves like a mountain hybrid bike until you 
 add disc brakes and then it changes to a mountain bike. If you remove these parts
 it will change back to a road bike. 
+
+
+*** Iterator ***
+
+The istorator pattern allows a collection of objects to expose an iterator which 
+iterates over them with out exposing their unerlying structure. 
+
+For example imagine a bike production line which you can add bikes to. You do how
+ever need a way of iterating over them in order to do any kind of meaningful work 
+on them. 
+
+Note: The implimentation of this in the code isn't the most straight forward. It's 
+probably easier to do it with an unerlying array, however I've chosen to do it all
+with a simply linked list of Bike types.
