@@ -20,6 +20,7 @@ namespace Patterns.Tests
             while(!iterator.IsFinished)
             {
                 iterator.CurrentBike.Build();
+                iterator.Next();
             }
 
             // Assert
