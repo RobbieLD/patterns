@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Patterns.Memento;
+using Patterns.Behavioral.Memento;
 
 namespace Patterns.Tests
 {

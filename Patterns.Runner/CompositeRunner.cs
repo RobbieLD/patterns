@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Compisite;
+using Patterns.Structural.Compisite;
 
 namespace Patterns.Runner
 {

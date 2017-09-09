@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Template;
+using Patterns.Behavioral.Template;
 
 namespace Patterns.Runner
 {

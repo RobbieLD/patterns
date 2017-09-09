@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Bridge;
+using Patterns.Structural.Bridge;
 
 namespace Patterns.Runner
 {

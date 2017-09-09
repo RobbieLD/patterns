@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Adapter;
+using Patterns.Structural.Adapter;
 using System.Collections.Generic;
 
 namespace Patterns.Runner

@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Singleton;
+using Patterns.Creational.Singleton;
 
 namespace Patterns.Runner
 {

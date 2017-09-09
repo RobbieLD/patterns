@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.PublishSubscriber;
+using Patterns.Behavioral.PublishSubscriber;
 
 namespace Patterns.Runner
 {

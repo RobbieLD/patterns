@@ -1,6 +1,6 @@
 ﻿using Patterns.Common;
 using System;
-using Patterns.Observer;
+using Patterns.Behavioral.Observer;
 
 namespace Patterns.Runner
 {

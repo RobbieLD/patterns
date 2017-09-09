@@ -1,4 +1,4 @@
-﻿using Patterns.Decorator;
+﻿using Patterns.Structural.Decorator;
 using System;
 
 namespace Patterns.Runner

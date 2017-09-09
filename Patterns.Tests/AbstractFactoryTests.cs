@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Patterns.AbstractFactory;
+using Patterns.Creational.AbstractFactory;
 
 namespace Patterns.Tests
 {

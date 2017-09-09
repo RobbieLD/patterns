@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Patterns.Facade;
+using Patterns.Structural.Facade;
 using Moq;
 
 namespace Patterns.Tests

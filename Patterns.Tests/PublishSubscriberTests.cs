@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Patterns.PublishSubscriber;
+using Patterns.Behavioral.PublishSubscriber;
 using System.IO;
 
 namespace Patterns.Tests

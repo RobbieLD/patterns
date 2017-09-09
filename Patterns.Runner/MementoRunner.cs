@@ -1,4 +1,4 @@
-﻿using Patterns.Memento;
+﻿using Patterns.Behavioral.Memento;
 using System;
 
 namespace Patterns.Runner

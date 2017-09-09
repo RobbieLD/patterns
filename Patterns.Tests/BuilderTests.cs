@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Patterns.Builder;
+using Patterns.Creational.Builder;
 using Moq;
 namespace Patterns.Tests
 {

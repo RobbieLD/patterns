@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Flyweight;
+using Patterns.Structural.Flyweight;
 using Patterns.Common;
 
 namespace Patterns.Runner

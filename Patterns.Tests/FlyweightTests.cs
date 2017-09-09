@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Patterns.Flyweight;
+using Patterns.Structural.Flyweight;
 using Patterns.Common;
 using Moq;
 

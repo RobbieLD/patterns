@@ -3,54 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Decorator", "Patterns.Decorator\Patterns.Decorator.csproj", "{80DA5AB4-1769-41E8-AD86-D003073D2251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Decorator", "Patterns.Structural.Decorator\Patterns.Structural.Decorator.csproj", "{80DA5AB4-1769-41E8-AD86-D003073D2251}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Tests", "Patterns.Tests\Patterns.Tests.csproj", "{021B3408-F133-4D61-86BE-BE07C28D7322}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Runner", "Patterns.Runner\Patterns.Runner.csproj", "{A7E0CD18-0B38-4699-9D80-F0667B6EB8A2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Template", "Patterns.Template\Patterns.Template.csproj", "{0C7160AE-B24F-4AB9-841A-E8EF4CB43A8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Template", "Patterns.Behavioral.Template\Patterns.Behavioral.Template.csproj", "{0C7160AE-B24F-4AB9-841A-E8EF4CB43A8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96277883-40E2-4D47-92E5-C5B246338FD5}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Singleton", "Patterns.Singleton\Patterns.Singleton.csproj", "{3123B294-BF38-4FE5-A98D-094102096D95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Creational.Singleton", "Patterns.Creational.Singleton\Patterns.Creational.Singleton.csproj", "{3123B294-BF38-4FE5-A98D-094102096D95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Observer", "Patterns.Observer\Patterns.Observer.csproj", "{7DB56659-BBBF-4DBA-B2C5-F817F9A29522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Observer", "Patterns.Behavioral.Observer\Patterns.Behavioral.Observer.csproj", "{7DB56659-BBBF-4DBA-B2C5-F817F9A29522}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Common", "Patterns.Common\Patterns.Common.csproj", "{C3C9AB18-3EC4-438A-818B-5C8555AB97D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.PublishSubscriber", "Patterns.PublishSubscriber\Patterns.PublishSubscriber.csproj", "{735F3A7B-CE97-4926-8262-C115F05B9CC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.PublishSubscriber", "Patterns.Behavioral.PublishSubscriber\Patterns.Behavioral.PublishSubscriber.csproj", "{735F3A7B-CE97-4926-8262-C115F05B9CC0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Factory", "Patterns.Factory\Patterns.Factory.csproj", "{8642888E-0B0A-473E-BFF3-8C35C3C407E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Creational.Factory", "Patterns.Creational.Factory\Patterns.Creational.Factory.csproj", "{8642888E-0B0A-473E-BFF3-8C35C3C407E4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.AbstractFactory", "Patterns.AbstractFactory\Patterns.AbstractFactory.csproj", "{F335C3D7-7BB8-428F-AC40-1EA60ACE8642}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Creational.AbstractFactory", "Patterns.Creational.AbstractFactory\Patterns.Creational.AbstractFactory.csproj", "{F335C3D7-7BB8-428F-AC40-1EA60ACE8642}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Stratergy", "Patterns.Stratergy\Patterns.Stratergy.csproj", "{8F4DED80-3228-4213-BB5C-796EA9DFC82E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Stratergy", "Patterns.Behavioral.Stratergy\Patterns.Behavioral.Stratergy.csproj", "{8F4DED80-3228-4213-BB5C-796EA9DFC82E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Prototype", "Patterns.Prototype\Patterns.Prototype.csproj", "{08CC8C6A-CBCC-4578-9576-CB443E70BE73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Creational.Prototype", "Patterns.Creational.Prototype\Patterns.Creational.Prototype.csproj", "{08CC8C6A-CBCC-4578-9576-CB443E70BE73}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Builder", "Patterns.Builder\Patterns.Builder.csproj", "{2282921F-AD17-423B-AC65-6D0A4E292C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Creational.Builder", "Patterns.Creational.Builder\Patterns.Creational.Builder.csproj", "{2282921F-AD17-423B-AC65-6D0A4E292C61}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Adapter", "Patterns.Adapter\Patterns.Adapter.csproj", "{D21D0FF3-A085-42FB-BF76-07BD867F06E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Adapter", "Patterns.Structural.Adapter\Patterns.Structural.Adapter.csproj", "{D21D0FF3-A085-42FB-BF76-07BD867F06E8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Facade", "Patterns.Facade\Patterns.Facade.csproj", "{6F79CE87-D825-43F3-A2B0-868D17089C16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Facade", "Patterns.Structural.Facade\Patterns.Structural.Facade.csproj", "{6F79CE87-D825-43F3-A2B0-868D17089C16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Command", "Patterns.Command\Patterns.Command.csproj", "{1E633AFC-A86D-46FA-90AE-1B8C50ADE097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Command", "Patterns.Behavioral.Command\Patterns.Behavioral.Command.csproj", "{1E633AFC-A86D-46FA-90AE-1B8C50ADE097}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Memento", "Patterns.Memento\Patterns.Memento.csproj", "{61002E07-59CF-49FC-982B-DCAD20E52FB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Memento", "Patterns.Behavioral.Memento\Patterns.Behavioral.Memento.csproj", "{61002E07-59CF-49FC-982B-DCAD20E52FB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Bridge", "Patterns.Bridge\Patterns.Bridge.csproj", "{7539005F-EAF9-4543-AD59-BE3ECF7045F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Bridge", "Patterns.Structural.Bridge\Patterns.Structural.Bridge.csproj", "{7539005F-EAF9-4543-AD59-BE3ECF7045F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Proxy", "Patterns.Proxy\Patterns.Proxy.csproj", "{AD877064-DB94-49F3-961E-3E4BE33EAC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Proxy", "Patterns.Structural.Proxy\Patterns.Structural.Proxy.csproj", "{AD877064-DB94-49F3-961E-3E4BE33EAC58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Compisite", "Patterns.Compisite\Patterns.Compisite.csproj", "{A3E2B06B-DFA0-4F10-9549-7E4A004CDF01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Compisite", "Patterns.Structural.Compisite\Patterns.Structural.Compisite.csproj", "{A3E2B06B-DFA0-4F10-9549-7E4A004CDF01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Flyweight", "Patterns.Flyweight\Patterns.Flyweight.csproj", "{72822CAF-F1D0-4038-9362-4134EDD68FAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Flyweight", "Patterns.Structural.Flyweight\Patterns.Structural.Flyweight.csproj", "{72822CAF-F1D0-4038-9362-4134EDD68FAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.State", "Patterns.State\Patterns.State.csproj", "{0D6B9EA7-A08A-4253-B8AC-D7748F33535A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.State", "Patterns.Behavioral.State\Patterns.Behavioral.State.csproj", "{0D6B9EA7-A08A-4253-B8AC-D7748F33535A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

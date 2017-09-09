@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Proxy;
+using Patterns.Structural.Proxy;
 
 namespace Patterns.Runner
 {

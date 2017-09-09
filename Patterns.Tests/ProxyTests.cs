@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Patterns.Proxy;
+using Patterns.Structural.Proxy;
 
 namespace Patterns.Tests
 {

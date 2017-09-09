@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Prototype;
+using Patterns.Creational.Prototype;
 
 namespace Patterns.Runner
 {

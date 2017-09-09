@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Patterns.Stratergy;
+using Patterns.Behavioral.Stratergy;
 using System.Collections.Generic;
 
 namespace Patterns.Tests

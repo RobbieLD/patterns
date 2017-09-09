@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Patterns.Prototype;
+using Patterns.Creational.Prototype;
 using Moq;
 
 namespace Patterns.Tests

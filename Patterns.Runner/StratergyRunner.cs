@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Patterns.Stratergy;
+using Patterns.Behavioral.Stratergy;
 
 namespace Patterns.Runner
 {

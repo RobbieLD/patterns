@@ -1,4 +1,4 @@
-﻿using Patterns.State;
+﻿using Patterns.Behavioral.State;
 using System;
 
 namespace Patterns.Runner

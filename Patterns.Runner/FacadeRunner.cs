@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Facade;
+using Patterns.Structural.Facade;
 
 namespace Patterns.Runner
 {

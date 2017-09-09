@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Patterns.Observer;
+using Patterns.Behavioral.Observer;
 using Moq;
 
 namespace Patterns.Tests

@@ -1,5 +1,5 @@
 ﻿using System;
-using Patterns.Factory;
+using Patterns.Creational.Factory;
 using Patterns.Common;
 
 namespace Patterns.Runner
