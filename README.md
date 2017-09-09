@@ -253,3 +253,14 @@ on them.
 Note: The implimentation of this in the code isn't the most straight forward. It's 
 probably easier to do it with an unerlying array, however I've chosen to do it all
 with a simply linked list of Bike types.
+
+*** Mediator ***
+
+This pattern provides a means for objects to communicate with each other by means of 
+a mediator class. The mediators job is to manage communication between the objects
+and make sure they are talking to eachother in the correct way. 
+
+For example imagine a bike auction where there are four participants. Three of them
+are bidding on the bikes and one of them is the auctioneer. The mediator class (the 
+auction) has the job of making sure the auctioneer talks to everyone and the bidders
+only talk to the auctioneer.

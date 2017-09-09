@@ -67,6 +67,9 @@ namespace Patterns.Runner
             // Iterator Pattern
             IteratorRunner.Run();
 
+            // Mediator Pattern
+            MediatorRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              
