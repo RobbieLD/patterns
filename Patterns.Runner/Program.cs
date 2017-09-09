@@ -61,6 +61,9 @@ namespace Patterns.Runner
             // Flyweight Pattern
             FlyweightRunner.Run();
 
+            // State Pattern
+            StateRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

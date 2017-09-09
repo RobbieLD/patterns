@@ -22,6 +22,7 @@
     <ProjectReference Include="..\Patterns.Proxy\Patterns.Proxy.csproj" />
     <ProjectReference Include="..\Patterns.PublishSubscriber\Patterns.PublishSubscriber.csproj" />
     <ProjectReference Include="..\Patterns.Singleton\Patterns.Singleton.csproj" />
+    <ProjectReference Include="..\Patterns.State\Patterns.State.csproj" />
     <ProjectReference Include="..\Patterns.Stratergy\Patterns.Stratergy.csproj" />
     <ProjectReference Include="..\Patterns.Template\Patterns.Template.csproj" />
   </ItemGroup>
