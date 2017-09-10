@@ -73,6 +73,9 @@ namespace Patterns.Runner
             // Chain Of Responsibility Pattern
             ChainOfResponsibilityRunner.Run();
 
+            // Interpreter Pattern
+            InterpreterRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

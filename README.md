@@ -271,6 +271,15 @@ This pattern allows a request to be decoupled from the object which handles it b
 all the objects which could handled it form a chain. The request is then passed down the 
 chain until it an object handles it or it reaches the end of the chain and is un handled.
 
-For example imagine a chain a bike shops. A customer makes a request to purchase a bike 
+For example imagine a chain of bike shops. A customer makes a request to purchase a bike 
 and their request is passed down the chain of shops until one has the correct stock on 
 hand to fill the order. 
+
+*** Interpreter Pattern ***
+
+This pattern provides a means of interpreting a certain language or set of objects 
+stored in a context into another set based on converter expressions defined in the 
+interpreter.
+
+For example imagine a bike interpreter that took imported bikes with imperial 
+measurments on them and converted them to metric. 

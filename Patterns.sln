@@ -52,11 +52,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Flyweig
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.State", "Patterns.Behavioral.State\Patterns.Behavioral.State.csproj", "{0D6B9EA7-A08A-4253-B8AC-D7748F33535A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Behavioral.Iterator", "Patterns.Behavioral.Iterator\Patterns.Behavioral.Iterator.csproj", "{C3ADD406-5CB8-457E-9508-A27D1FBD170E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Iterator", "Patterns.Behavioral.Iterator\Patterns.Behavioral.Iterator.csproj", "{C3ADD406-5CB8-457E-9508-A27D1FBD170E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Behavioral.Mediator", "Patterns.Behavioral.Mediator\Patterns.Behavioral.Mediator.csproj", "{7D083AC9-0440-4517-9151-3B9285B0A215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Mediator", "Patterns.Behavioral.Mediator\Patterns.Behavioral.Mediator.csproj", "{7D083AC9-0440-4517-9151-3B9285B0A215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Behavioral.ChainOfResponsibility", "Patterns.Behavioral.ChainOfResponsibility\Patterns.Behavioral.ChainOfResponsibility.csproj", "{666AFB2D-3EE9-4850-9176-A478E303B659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.ChainOfResponsibility", "Patterns.Behavioral.ChainOfResponsibility\Patterns.Behavioral.ChainOfResponsibility.csproj", "{666AFB2D-3EE9-4850-9176-A478E303B659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Behavioral.Interpreter", "Patterns.Behavioral.Interpreter\Patterns.Behavioral.Interpreter.csproj", "{E4B397C5-C003-48AE-B51D-116534483188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -164,6 +166,10 @@ Global
 		{666AFB2D-3EE9-4850-9176-A478E303B659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{666AFB2D-3EE9-4850-9176-A478E303B659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{666AFB2D-3EE9-4850-9176-A478E303B659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B397C5-C003-48AE-B51D-116534483188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B397C5-C003-48AE-B51D-116534483188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B397C5-C003-48AE-B51D-116534483188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B397C5-C003-48AE-B51D-116534483188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
