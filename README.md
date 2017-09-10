@@ -283,3 +283,12 @@ interpreter.
 
 For example imagine a bike interpreter that took imported bikes with imperial 
 measurments on them and converted them to metric. 
+
+
+*** Visitor Pattern ***
+
+The visitor pattern defines a way of allowing objects contained in a structure to be 
+visited by a series of visitors which can perform operations on each of them. 
+
+For example imagine a workshop full of bikes. We have two visitor robots which go 
+to each bike. One paints it a new colour and the other pumps up the tires;

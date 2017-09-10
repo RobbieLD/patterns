@@ -76,6 +76,9 @@ namespace Patterns.Runner
             // Interpreter Pattern
             InterpreterRunner.Run();
 
+            // Visitor Pattern
+            VisitorRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              
