@@ -70,6 +70,9 @@ namespace Patterns.Runner
             // Mediator Pattern
             MediatorRunner.Run();
 
+            // Chain Of Responsibility Pattern
+            ChainOfResponsibilityRunner.Run();
+
             // Wait for user
             Console.ReadKey();
              

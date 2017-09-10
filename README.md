@@ -264,3 +264,13 @@ For example imagine a bike auction where there are four participants. Three of t
 are bidding on the bikes and one of them is the auctioneer. The mediator class (the 
 auction) has the job of making sure the auctioneer talks to everyone and the bidders
 only talk to the auctioneer.
+
+*** Chain of Responsibility ***
+
+This pattern allows a request to be decoupled from the object which handles it by making
+all the objects which could handled it form a chain. The request is then passed down the 
+chain until it an object handles it or it reaches the end of the chain and is un handled.
+
+For example imagine a chain a bike shops. A customer makes a request to purchase a bike 
+and their request is passed down the chain of shops until one has the correct stock on 
+hand to fill the order. 
