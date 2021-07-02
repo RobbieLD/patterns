@@ -228,15 +228,15 @@ bikes in the race.
 
 *** State ***
 
-This pattern allows an object to maintain and internal state which can change based on 
-property changes or method calls. This internal state has changes the internal 
+This pattern allows an object to maintain an internal state which can change based on 
+property changes or method calls. This internal state changes the internal 
 functionality of the object making it look a bit like it's changed type. This is done
 by having a state class instance variable in the main class which can be swapped for
 another state calss if some condition is met that requires a state change.
 
 For example imagine a Bike which changes from a Road bike to a mountain bike depending
-on the addition or removal of various componants. If you have a bike is behaves like a 
-road bike until you add shocks then it behaves like a mountain hybrid bike until you 
+on the addition or removal of various componants. If you have a bike it behaves like a 
+road bike until you add shocks then it behaves like a hybrid bike until you 
 add disc brakes and then it changes to a mountain bike. If you remove these parts
 it will change back to a road bike. 
 

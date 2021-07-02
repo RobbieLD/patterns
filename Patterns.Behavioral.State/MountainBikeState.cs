@@ -26,6 +26,11 @@ namespace Patterns.Behavioral.State
             CheckState();
         }
 
+        public override bool NegotiatePothole()
+        {
+            return true;
+        }
+
         public override void Remove(ComponentType type)
         {
             _components.Remove(type);
@@ -46,12 +51,12 @@ namespace Patterns.Behavioral.State
                 }
                 else
                 {
-                    Bike.State = new HybridBikeState(this);
+                    Bike.ChangeStateTo(new HybridBikeState(this));
                 }
             }
             else
             {
-                Bike.State = new RoadBikeState(this);
+                Bike.ChangeStateTo(new RoadBikeState(this));
             }
         }
     }

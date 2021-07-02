@@ -18,6 +18,8 @@ namespace Patterns.Behavioral.State
             return _components;
         }
 
+        public abstract bool NegotiatePothole();
+
         public override string ToString()
         {
             return string.Format("Speed:{0}, Weight:{1}", Speed, Weight);

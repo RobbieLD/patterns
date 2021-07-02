@@ -26,6 +26,11 @@ namespace Patterns.Behavioral.State
             CheckState();
         }
 
+        public override bool NegotiatePothole()
+        {
+            return true;
+        }
+
         public override void Remove(ComponentType type)
         {
             _components.Remove(type);
@@ -42,7 +47,7 @@ namespace Patterns.Behavioral.State
             {
                 if (_components.Contains(ComponentType.DiscBrakes))
                 {
-                    Bike.State = new MountainBikeState(this);
+                    Bike.ChangeStateTo(new MountainBikeState(this));
                 }
                 else
                 {
@@ -51,7 +56,7 @@ namespace Patterns.Behavioral.State
             }
             else
             {
-                Bike.State = new RoadBikeState(this);
+                Bike.ChangeStateTo(new RoadBikeState(this));
             }
         }
     }
