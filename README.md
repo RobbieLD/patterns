@@ -257,7 +257,7 @@ For example imagine a chain of bike shops. A customer makes a request to purchas
 and their request is passed down the chain of shops until one has the correct stock on 
 hand to fill the order. 
 
-## Interpreter Pattern
+## Interpreter
 
 This pattern provides a means of interpreting a certain language or set of objects 
 stored in a context into another set based on converter expressions defined in the 
@@ -267,7 +267,7 @@ For example imagine a bike interpreter that took imported bikes with imperial
 measurments on them and converted them to metric. 
 
 
-## Visitor Pattern
+## Visitor
 
 The visitor pattern defines a way of allowing objects contained in a structure to be 
 visited by a series of visitors which can perform operations on each of them. 
