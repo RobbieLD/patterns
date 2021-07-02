@@ -26,7 +26,7 @@ namespace Patterns.Tests
             rider.UnRide(3);
 
             // Assert
-            Assert.AreEqual<string>(rider.ToString(), " - Bikes current postion is (-1, 3) and 3.16227766016838 from origin");
+            Assert.IsTrue(rider.ToString().StartsWith(" - Bikes current postion is (-1, 3)"));
         }
     }
 }
