@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Decorator", "Patterns.Structural.Decorator\Patterns.Structural.Decorator.csproj", "{80DA5AB4-1769-41E8-AD86-D003073D2251}"
 EndProject
@@ -58,9 +58,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Mediato
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.ChainOfResponsibility", "Patterns.Behavioral.ChainOfResponsibility\Patterns.Behavioral.ChainOfResponsibility.csproj", "{666AFB2D-3EE9-4850-9176-A478E303B659}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Behavioral.Interpreter", "Patterns.Behavioral.Interpreter\Patterns.Behavioral.Interpreter.csproj", "{E4B397C5-C003-48AE-B51D-116534483188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Interpreter", "Patterns.Behavioral.Interpreter\Patterns.Behavioral.Interpreter.csproj", "{E4B397C5-C003-48AE-B51D-116534483188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Behavioral.Visitor", "Patterns.Behavioral.Visitor\Patterns.Behavioral.Visitor.csproj", "{D0E6FF8D-77CA-423A-9FBD-DB63E95A8B6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Visitor", "Patterns.Behavioral.Visitor\Patterns.Behavioral.Visitor.csproj", "{D0E6FF8D-77CA-423A-9FBD-DB63E95A8B6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,5 +179,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {212B6813-33C9-4DF7-A0FF-7797CA7FB5D0}
 	EndGlobalSection
 EndGlobal
