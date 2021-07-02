@@ -1,5 +1,5 @@
-# patterns
-A library demonstrating various software patterns for educational purposes
+# Common Software Patterns
+A library demonstrating various software patterns for educational purposes with examples in c#
 
 Thus far the library contains the following patterns
 
