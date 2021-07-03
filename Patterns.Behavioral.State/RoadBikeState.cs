@@ -28,7 +28,7 @@ namespace Patterns.Behavioral.State
 
         public override bool NegotiatePothole()
         {
-            throw new System.NotImplementedException("Bike wheel buckled!");
+            throw new System.NotSupportedException("Bike wheel buckled!");
         }
 
         public override void Remove(ComponentType type)

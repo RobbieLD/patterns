@@ -18,7 +18,7 @@ namespace Patterns.Tests
             // Act
 
             // Attemp to negotiate a pothole on a road bike
-            Assert.ThrowsException<NotImplementedException>(() => bike.AttemptToNegotiatePothole());
+            Assert.ThrowsException<NotSupportedException>(() => bike.AttemptToNegotiatePothole());
 
             bike.Add(ComponentType.Shocks);
 
