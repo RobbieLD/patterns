@@ -4,7 +4,7 @@ namespace Patterns.Behavioral.State
 {
     public class Bike
     {
-        public BikeState State { get; set; }
+        private BikeState State { get; set; }
 
         private string _name;
 
@@ -14,6 +14,16 @@ namespace Patterns.Behavioral.State
             _name = name;
             // Give the bike it's default state of road bike
             State = new RoadBikeState(this);
+        }
+
+        public bool AttemptToNegotiatePothole()
+        {
+            return this.State.NegotiatePothole();
+        }
+
+        public void ChangeStateTo(BikeState state)
+        {
+            this.State = state;
         }
 
         public void Display()

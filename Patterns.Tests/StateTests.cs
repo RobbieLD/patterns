@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Patterns.Behavioral.State;
+using System;
 
 namespace Patterns.Tests
 {
@@ -14,15 +15,17 @@ namespace Patterns.Tests
             // Arrange
             Bike bike = new Bike("Rob");
 
-            System.Type firstType = bike.State.GetType();
-
             // Act
+
+            // Attemp to negotiate a pothole on a road bike
+            Assert.ThrowsException<NotSupportedException>(() => bike.AttemptToNegotiatePothole());
+
             bike.Add(ComponentType.Shocks);
 
-            System.Type secondType = bike.State.GetType();
+            // Now that we've got shocks we're a hybrid bike so we can negotiate a pothole ok.
 
             // Assert
-            Assert.IsFalse(firstType == secondType);
+            Assert.IsTrue(bike.AttemptToNegotiatePothole());
         }
     }
 }
