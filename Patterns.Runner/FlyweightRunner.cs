@@ -10,24 +10,21 @@ namespace Patterns.Runner
         {
             Console.WriteLine($"{Environment.NewLine}*** FLYWEIGHT PATTERN ***{Environment.NewLine}");
 
-            BikeRace race = new BikeRace();
+            string[] colors = { "green", "blue", "red" };
 
-            // Setup an array of bike types we want to use
-            BikeType[] racingBikes = {
-                                                   BikeType.Road,
-                                                   BikeType.Mountain,
-                                                   BikeType.Hybrid,
-                                                   BikeType.Mountain,
-                                                   BikeType.Hybrid,
-                                                   BikeType.Road,
-                                                   BikeType.Road,
-                                                   BikeType.Mountain,
-                                                   BikeType.Hybrid
-                                               };
+            int numberOfBikesToPaint = 100;
 
-            foreach (BikeType type in racingBikes)
+            for(int i = 0; i < numberOfBikesToPaint; i++)
             {
-                race.GetCompetitor(type).Ride();
+                var bike = new Bike();
+
+                string color = colors[new Random().Next(0, 2)];
+
+                var robot = PaintRobotFactory.GetRobot(color);
+
+                robot.PaintBike(bike);
+
+                Console.WriteLine(string.Format("{0} by robot serial number: {1}", bike.ToString(), robot.GetHashCode()));
             }
         }
     }
