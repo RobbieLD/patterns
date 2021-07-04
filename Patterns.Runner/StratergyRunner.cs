@@ -4,9 +4,9 @@ using Patterns.Behavioral.Stratergy;
 
 namespace Patterns.Runner
 {
-    public static class StratergyRunner
+    public class StratergyRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** STRATERGY PATTERN ***{Environment.NewLine}");
 

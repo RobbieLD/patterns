@@ -3,9 +3,9 @@ using System;
 
 namespace Patterns.Runner
 {
-    public static class StateRunner
+    public class StateRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** STATE PATTERN ***{Environment.NewLine}");
 

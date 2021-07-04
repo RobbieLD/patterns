@@ -4,9 +4,9 @@ using Patterns.Common;
 
 namespace Patterns.Runner
 {
-    public static class FlyweightRunner
+    public class FlyweightRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** FLYWEIGHT PATTERN ***{Environment.NewLine}");
 

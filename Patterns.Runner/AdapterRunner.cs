@@ -4,9 +4,9 @@ using System.Collections.Generic;
 
 namespace Patterns.Runner
 {
-    public static class AdapterRunner
+    public class AdapterRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** ADAPTER PATTERN ***{Environment.NewLine}");
 

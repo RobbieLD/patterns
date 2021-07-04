@@ -4,9 +4,9 @@ using Patterns.Common;
 
 namespace Patterns.Runner
 {
-    public static class FactoryRunner
+    public class FactoryRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** FACTORY PATTERN ***{Environment.NewLine}");
 

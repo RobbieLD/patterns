@@ -3,9 +3,9 @@ using Patterns.Behavioral.Command;
 
 namespace Patterns.Runner
 {
-    public static class CommandRunner
+    public class CommandRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** COMMAND PATTERN ***{Environment.NewLine}");
 

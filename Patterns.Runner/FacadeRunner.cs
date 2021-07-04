@@ -3,9 +3,9 @@ using Patterns.Structural.Facade;
 
 namespace Patterns.Runner
 {
-    public static class FacadeRunner
+    public class FacadeRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** FACADE PATTERN ***{Environment.NewLine}");
 

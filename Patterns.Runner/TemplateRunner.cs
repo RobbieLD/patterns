@@ -3,9 +3,9 @@ using Patterns.Behavioral.Template;
 
 namespace Patterns.Runner
 {
-    public static class TemplateRunner
+    public class TemplateRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** TEMPLATE PATTERN ***{Environment.NewLine}");
             

@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace Patterns.Runner
 {
-    public static class ChainOfResponsibilityRunner
+    public class ChainOfResponsibilityRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** CHAIN OF RESPONSIBILITY PATTERN ***{Environment.NewLine}");
 

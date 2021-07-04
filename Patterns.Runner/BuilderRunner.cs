@@ -3,9 +3,9 @@ using System;
 
 namespace Patterns.Runner
 {
-    public static class BuilderRunner
+    public class BuilderRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** BUILDER PATTERN ***{Environment.NewLine}");
 

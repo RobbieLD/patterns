@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Patterns.Runner
 {
-    public static class InterpreterRunner
+    public class InterpreterRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** INTERPRETER PATTERN ***{Environment.NewLine}");
 

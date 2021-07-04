@@ -3,9 +3,9 @@ using Patterns.Structural.Bridge;
 
 namespace Patterns.Runner
 {
-    public static class BridgeRunner
+    public class BridgeRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** BRIDGE PATTERN ***{Environment.NewLine}");
 

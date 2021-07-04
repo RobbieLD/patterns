@@ -1,5 +1,15 @@
 # Common Software Patterns
-A library demonstrating various software patterns for educational purposes with examples in c#
+A library demonstrating various software patterns for educational purposes with examples in c#. 
+These pattern exampel are to try and give a single reference for most of the commonly used 
+software patterns. It's important to note that these patterns can often vary in their implimentation
+particularly around the use of interfaces and abstract classes. These examples are simply exampels of
+one way to do these patterns and are meant more to convey the genreal idea behind the pattern than an
+exact solution for implimenting them. 
+
+These patterns are intented to be read and used as guides however for working exampels a runner in
+`Program.cs` is provided for each one. This means you can run the project and debug to see each pattern
+in use. There are also tests for each pattern showing the important aspects of each pattern and how 
+to test for it.
 
 Thus far the library contains the following patterns
 

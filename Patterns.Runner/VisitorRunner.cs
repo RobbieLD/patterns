@@ -3,9 +3,9 @@ using Patterns.Behavioral.Visitor;
 
 namespace Patterns.Runner
 {
-    public static class VisitorRunner
+    public class VisitorRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** VISITOR PATTERN ***{Environment.NewLine}");
 
