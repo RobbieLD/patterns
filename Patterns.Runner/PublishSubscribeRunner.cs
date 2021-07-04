@@ -3,9 +3,9 @@ using Patterns.Behavioral.PublishSubscriber;
 
 namespace Patterns.Runner
 {
-    public static class PublishSubscribeRunner
+    public class PublishSubscribeRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** PUBLISH SUBSCRIBE PATTERN ***{Environment.NewLine}");
 

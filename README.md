@@ -1,5 +1,15 @@
 # Common Software Patterns
-A library demonstrating various software patterns for educational purposes with examples in c#
+A library demonstrating various software patterns for educational purposes with examples in c#. 
+These pattern exampel are to try and give a single reference for most of the commonly used 
+software patterns. It's important to note that these patterns can often vary in their implimentation
+particularly around the use of interfaces and abstract classes. These examples are simply exampels of
+one way to do these patterns and are meant more to convey the genreal idea behind the pattern than an
+exact solution for implimenting them. 
+
+These patterns are intented to be read and used as guides however for working exampels a runner in
+`Program.cs` is provided for each one. This means you can run the project and debug to see each pattern
+in use. There are also tests for each pattern showing the important aspects of each pattern and how 
+to test for it.
 
 Thus far the library contains the following patterns
 
@@ -201,13 +211,14 @@ The flyweight pattern is used to control a large number of objects all inherited
 from the same base type. A factory class is used to lazily create these as needed
 and return them as needed. 
 
-Imagine a bike race where there are hundreds of bikes but only a few different types
-the bikes can be. Instead of making hundreds of classes or instantiating the several
-classes hundreds of times, a flyweight implimentation will handle the creation of the
-bike types and everytime a particular type is needed, it will return either the instance
-it's already created or a new one if this type hasn't been used before. This was there
-is every only the minimum required number of instantiated classes to represent all the 
-bikes in the race. 
+Imagine a bike painting workshop. It might paint hundreds of bikes but it's only 
+going to paint then a selected predefind range of colours. We need a paint robot
+for each color but we don't want to create a new color robot for every bike that
+needs to be painted. so when we need a green robot we check our robot collection,
+if we've got a green one we use it and if not, only then do we make one. This same
+pattern follows for all colours we need to paint a robot. This way we might paint
+thousands of bikes but we won't be making new painting robots unless there's a new 
+color we need to support.
 
 ## State
 
@@ -274,3 +285,14 @@ visited by a series of visitors which can perform operations on each of them.
 
 For example imagine a workshop full of bikes. We have two visitor robots which go 
 to each bike. One paints it a new colour and the other pumps up the tires;
+
+## Lock
+
+The lock pattern is a means to make sure that a particular recource can only be 
+updated by a single thread thread at one time. 
+
+Consider a bunch of bike shops all selling bikes from the same warehouse. If 
+the requests to sell bikes from each of the shops arrive at the bike warehouse 
+concurrently we need these to be enforce a lock so that only one request at a 
+time can be handled or it's possible that when there is only one bike left two
+bike shops might try to sell it at the same time.

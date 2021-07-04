@@ -3,9 +3,9 @@ using Patterns.Structural.Compisite;
 
 namespace Patterns.Runner
 {
-    public static class CompositeRunner
+    public class CompositeRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** COMPOSITE PATTERN ***{Environment.NewLine}");
 

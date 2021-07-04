@@ -4,9 +4,9 @@ using Patterns.Behavioral.Observer;
 
 namespace Patterns.Runner
 {
-    public static class ObserverRunner
+    public class ObserverRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** OBSERVER PATTERN ***{Environment.NewLine}");
 

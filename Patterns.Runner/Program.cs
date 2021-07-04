@@ -1,5 +1,6 @@
-﻿using System;
-
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System;
 
 namespace Patterns.Runner
 {
@@ -7,81 +8,16 @@ namespace Patterns.Runner
     {
         static void Main(string[] args)
         {
-            // Singleton Pattern
-            SingletonRunner.Run();
+            IServiceProvider serviceProvider = new ServiceCollection()
+                .RegisterAllTypes<IRunner>(new[] { typeof(Program).Assembly })
+                .BuildServiceProvider();
 
-            // Decorator Pattern
-            DecoratorRunner.Run();
 
-            // Temaplte Pattern
-            TemplateRunner.Run();
+            foreach(var runner in serviceProvider.GetServices<IRunner>())
+            {
+                runner.Run();
+            }
 
-            // Observer Pattern
-            ObserverRunner.Run();
-
-            // PublishSubscriber Pattern
-            PublishSubscribeRunner.Run();
-
-            // Factory Pattern
-            FactoryRunner.Run();
-
-            // Abstract Factory Pattern
-            AbstractFactoryRunner.Run();
-
-            // Stratergy Pattern
-            StratergyRunner.Run();
-
-            // Prototype Pattern
-            PrototypeRunner.Run();
-
-            // Builder Pattern
-            BuilderRunner.Run();
-
-            // Adapter Pattern
-            AdapterRunner.Run();
-
-            // Facade Pattern
-            FacadeRunner.Run();
-
-            // Command Pattern
-            CommandRunner.Run();
-
-            // Memento Pattern
-            MementoRunner.Run();
-
-            // Bridge Pattern
-            BridgeRunner.Run();
-
-            // Proxy Pattern
-            ProxyRunner.Run();
-
-            // Composite Pattern
-            CompositeRunner.Run();
-
-            // Flyweight Pattern
-            FlyweightRunner.Run();
-
-            // State Pattern
-            StateRunner.Run();
-
-            // Iterator Pattern
-            IteratorRunner.Run();
-
-            // Mediator Pattern
-            MediatorRunner.Run();
-
-            // Chain Of Responsibility Pattern
-            ChainOfResponsibilityRunner.Run();
-
-            // Interpreter Pattern
-            InterpreterRunner.Run();
-
-            // Visitor Pattern
-            VisitorRunner.Run();
-
-            // Wait for user
-            Console.ReadKey();
-             
         }
     }
 }

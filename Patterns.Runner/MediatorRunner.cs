@@ -3,9 +3,9 @@ using Patterns.Behavioral.Mediator;
 
 namespace Patterns.Runner
 {
-    public static class MediatorRunner
+    public class MediatorRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** MEDIATOR PATTERN ***{Environment.NewLine}");
 

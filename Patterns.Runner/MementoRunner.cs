@@ -3,9 +3,9 @@ using System;
 
 namespace Patterns.Runner
 {
-    public static class MementoRunner
+    public class MementoRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** MEMENTO PATTERN ***{Environment.NewLine}");
 

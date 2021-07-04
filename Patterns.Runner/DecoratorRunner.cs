@@ -3,9 +3,9 @@ using System;
 
 namespace Patterns.Runner
 {
-    public static class DecoratorRunner
+    public class DecoratorRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** DECORATOR PATTERN ***{Environment.NewLine}");
 

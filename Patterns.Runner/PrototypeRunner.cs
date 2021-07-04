@@ -3,9 +3,9 @@ using Patterns.Creational.Prototype;
 
 namespace Patterns.Runner
 {
-    public static class PrototypeRunner
+    public class PrototypeRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** PROTOTYPE PATTERN ***{Environment.NewLine}");
 

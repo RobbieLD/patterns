@@ -3,9 +3,9 @@ using Patterns.Structural.Proxy;
 
 namespace Patterns.Runner
 {
-    public static class ProxyRunner
+    public class ProxyRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** PROXY PATTERN ***{Environment.NewLine}");
 

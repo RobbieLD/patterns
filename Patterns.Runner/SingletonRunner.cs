@@ -3,9 +3,9 @@ using Patterns.Creational.Singleton;
 
 namespace Patterns.Runner
 {
-    public static class SingletonRunner
+    public class SingletonRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** SINGLETON PATTERN ***{Environment.NewLine}");
 

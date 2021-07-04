@@ -3,9 +3,9 @@ using Patterns.Behavioral.Iterator;
 
 namespace Patterns.Runner
 {
-    public static class IteratorRunner
+    public class IteratorRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** ITERATOR PATTERN ***{Environment.NewLine}");
 

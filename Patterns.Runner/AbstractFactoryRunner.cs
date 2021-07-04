@@ -3,9 +3,9 @@ using Patterns.Creational.AbstractFactory;
 
 namespace Patterns.Runner
 {
-    public static class AbstractFactoryRunner
+    public class AbstractFactoryRunner : IRunner
     {
-        public static void Run()
+        public void Run()
         {
             Console.WriteLine($"{Environment.NewLine}*** ABSTRACT FACTORY PATTERN ***{Environment.NewLine}");
 
