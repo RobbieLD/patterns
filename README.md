@@ -201,13 +201,14 @@ The flyweight pattern is used to control a large number of objects all inherited
 from the same base type. A factory class is used to lazily create these as needed
 and return them as needed. 
 
-Imagine a bike race where there are hundreds of bikes but only a few different types
-the bikes can be. Instead of making hundreds of classes or instantiating the several
-classes hundreds of times, a flyweight implimentation will handle the creation of the
-bike types and everytime a particular type is needed, it will return either the instance
-it's already created or a new one if this type hasn't been used before. This was there
-is every only the minimum required number of instantiated classes to represent all the 
-bikes in the race. 
+Imagine a bike painting workshop. It might paint hundreds of bikes but it's only 
+going to paint then a selected predefind range of colours. We need a paint robot
+for each color but we don't want to create a new color robot for every bike that
+needs to be painted. so when we need a green robot we check our robot collection,
+if we've got a green one we use it and if not, only then do we make one. This same
+pattern follows for all colours we need to paint a robot. This way we might paint
+thousands of bikes but we won't be making new painting robots unless there's a new 
+color we need to support.
 
 ## State
 

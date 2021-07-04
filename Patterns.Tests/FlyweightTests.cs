@@ -1,7 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Patterns.Structural.Flyweight;
-using Patterns.Common;
-using Moq;
 
 namespace Patterns.Tests
 {
@@ -10,21 +8,35 @@ namespace Patterns.Tests
     {
         [TestMethod]
         [TestCategory("Flyweight")]
-        public void BikeRace_Ride_CallsRideOnCompetitor()
+        public void PaintRobots_Paint_PaintsBike()
         {
             // Arrange
-            Mock<IBikeRace> mockRace = new Mock<IBikeRace>();
-            Mock<Competitor> mockCompetitor = new Mock<Competitor>();
-
-            mockRace.Setup(x => x.GetCompetitor(It.IsAny<BikeType>())).Returns(mockCompetitor.Object);
-
-            Competitor competitor = mockRace.Object.GetCompetitor(BikeType.Hybrid);
+            var greenBike = new Bike();
+            var redBike = new Bike();
 
             // Act
-            competitor.Ride();
+            var greenRobotA = PaintRobotFactory.GetRobot("green");
+            greenRobotA.PaintBike(greenBike);
+
+            var redRobot = PaintRobotFactory.GetRobot("red");
+            redRobot.PaintBike(redBike);
+
+            // Assert 
+            Assert.AreEqual(redBike.ToString(), "This bike is painted red");
+        }
+
+        [TestMethod]
+        [TestCategory("Flyweight")]
+        public void PaintRobotFactory_GetRobot_ReusesRobots()
+        {
+            // Arrange/Act
+            var greenPaintRobotA = PaintRobotFactory.GetRobot("green");
+            var greenPaintRobotB = PaintRobotFactory.GetRobot("green");
+            var redPaintRobot = PaintRobotFactory.GetRobot("red");
 
             // Assert
-            mockCompetitor.Verify(m => m.Ride(), Times.Once);
+            Assert.AreEqual(greenPaintRobotB, greenPaintRobotA);
+            Assert.AreNotEqual(greenPaintRobotB, redPaintRobot);
         }
     }
 }
