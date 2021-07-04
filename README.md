@@ -285,3 +285,14 @@ visited by a series of visitors which can perform operations on each of them.
 
 For example imagine a workshop full of bikes. We have two visitor robots which go 
 to each bike. One paints it a new colour and the other pumps up the tires;
+
+## Lock
+
+The lock pattern is a means to make sure that a particular recource can only be 
+updated by a single thread thread at one time. 
+
+Consider a bunch of bike shops all selling bikes from the same warehouse. If 
+the requests to sell bikes from each of the shops arrive at the bike warehouse 
+concurrently we need these to be enforce a lock so that only one request at a 
+time can be handled or it's possible that when there is only one bike left two
+bike shops might try to sell it at the same time.
