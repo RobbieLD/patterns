@@ -38,6 +38,20 @@ are bidding on the bikes and one of them is the auctioneer. The mediator class (
 auction) has the job of making sure the auctioneer talks to everyone and the bidders
 only talk to the auctioneer.
 
+### Servant
+
+This pattern is sort of like a helper class. When you have a chunk of functionality
+which should be avaliable to a bunch of differents classes but you don't want those
+classes to actually need to know about the implimentation of the functionality you 
+can use the servant patter. 
+
+For example imagine we've got several different types of bikes. They have different
+speeds and need to be able to ride from one location to another. They only really
+need to know their current location and not the details of how they got there so
+we use a serval class to handle the calculations of their new positions and time 
+of arrival and keep the bike class clean with only the bits of information impornt 
+to it.
+
 ### Interpreter
 
 This pattern provides a means of interpreting a certain language or set of objects 
