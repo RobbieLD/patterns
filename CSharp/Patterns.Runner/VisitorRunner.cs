@@ -3,11 +3,11 @@ using Patterns.Behavioral.Visitor;
 
 namespace Patterns.Runner
 {
-    public class VisitorRunner : IRunner
+    public class VisitorRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** VISITOR PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             BikeShop shop = new BikeShop();
 

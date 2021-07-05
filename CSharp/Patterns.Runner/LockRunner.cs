@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Patterns.Runner
 {
-    public class LockRunner : IRunner
+    public class LockRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** LOCK PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             var warehouse = new Warehouse(2);
 

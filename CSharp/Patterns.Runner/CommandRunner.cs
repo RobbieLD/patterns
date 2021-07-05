@@ -3,11 +3,11 @@ using Patterns.Behavioral.Command;
 
 namespace Patterns.Runner
 {
-    public class CommandRunner : IRunner
+    public class CommandRunner : BaseRunner, IRunner 
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** COMMAND PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             BikeRider rider = new BikeRider();
 

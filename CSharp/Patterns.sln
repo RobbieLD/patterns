@@ -64,6 +64,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Visitor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Concurrency.Lock", "Patterns.Concurrency.Lock\Patterns.Concurrency.Lock.csproj", "{D23612B9-11E9-46A9-8B73-D8C7CE63E548}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Behavioral.Specification", "Patterns.Behavioral.Specification\Patterns.Behavioral.Specification.csproj", "{E5452276-3743-4458-8D6D-4AEEEE0954E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -182,6 +184,10 @@ Global
 		{D23612B9-11E9-46A9-8B73-D8C7CE63E548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D23612B9-11E9-46A9-8B73-D8C7CE63E548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D23612B9-11E9-46A9-8B73-D8C7CE63E548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5452276-3743-4458-8D6D-4AEEEE0954E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5452276-3743-4458-8D6D-4AEEEE0954E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5452276-3743-4458-8D6D-4AEEEE0954E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5452276-3743-4458-8D6D-4AEEEE0954E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

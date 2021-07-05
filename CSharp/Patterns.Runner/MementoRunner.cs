@@ -3,11 +3,11 @@ using System;
 
 namespace Patterns.Runner
 {
-    public class MementoRunner : IRunner
+    public class MementoRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** MEMENTO PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             BikeRace race = new BikeRace(new string[] { "Tom", "Dick", "Harry", "Bill", "Jim", "Rick", "Fred", "Joe", "Dan", "Gav", "Mark", "Henry" });
 

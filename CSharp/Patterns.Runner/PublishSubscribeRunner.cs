@@ -3,11 +3,11 @@ using Patterns.Behavioral.PublishSubscriber;
 
 namespace Patterns.Runner
 {
-    public class PublishSubscribeRunner : IRunner
+    public class PublishSubscribeRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** PUBLISH SUBSCRIBE PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             // Make a bike shop
             IBikeShop shop = new BikeShop("Mountain Bike Guys");

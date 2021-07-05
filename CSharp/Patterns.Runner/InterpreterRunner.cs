@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Patterns.Runner
 {
-    public class InterpreterRunner : IRunner
+    public class InterpreterRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** INTERPRETER PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             Bike imperialBike = new Bike
             {

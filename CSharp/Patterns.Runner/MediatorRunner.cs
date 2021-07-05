@@ -3,11 +3,11 @@ using Patterns.Behavioral.Mediator;
 
 namespace Patterns.Runner
 {
-    public class MediatorRunner : IRunner
+    public class MediatorRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** MEDIATOR PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             Auction auction = new Auction();
             Participant tom = new Bidder("Tom");

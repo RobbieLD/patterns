@@ -3,11 +3,11 @@ using System;
 
 namespace Patterns.Runner
 {
-    public class StateRunner : IRunner
+    public class StateRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** STATE PATTERN ***{Environment.NewLine}");
+            ShowTitle(); 
 
             Bike bike = new Bike("Rob");
 

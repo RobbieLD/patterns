@@ -3,11 +3,11 @@ using System;
 
 namespace Patterns.Runner
 {
-    public class BuilderRunner : IRunner
+    public class BuilderRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** BUILDER PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             BikeBuilder mBuilder = new MountainBikeBuilder();
             BikeBuilder rBuilder = new RoadBikeBuilder();

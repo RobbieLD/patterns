@@ -3,11 +3,11 @@ using Patterns.Creational.Prototype;
 
 namespace Patterns.Runner
 {
-    public class PrototypeRunner : IRunner
+    public class PrototypeRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** PROTOTYPE PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             Bike bike = new Bike
             {

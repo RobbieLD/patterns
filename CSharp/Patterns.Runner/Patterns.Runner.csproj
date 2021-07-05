@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.7" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
   </ItemGroup>
 
@@ -14,6 +15,7 @@
     <ProjectReference Include="..\Patterns.Behavioral.Interpreter\Patterns.Behavioral.Interpreter.csproj" />
     <ProjectReference Include="..\Patterns.Behavioral.Iterator\Patterns.Behavioral.Iterator.csproj" />
     <ProjectReference Include="..\Patterns.Behavioral.Mediator\Patterns.Behavioral.Mediator.csproj" />
+    <ProjectReference Include="..\Patterns.Behavioral.Specification\Patterns.Behavioral.Specification.csproj" />
     <ProjectReference Include="..\Patterns.Behavioral.Visitor\Patterns.Behavioral.Visitor.csproj" />
     <ProjectReference Include="..\Patterns.Concurrency.Lock\Patterns.Concurrency.Lock.csproj" />
     <ProjectReference Include="..\Patterns.Creational.AbstractFactory\Patterns.Creational.AbstractFactory.csproj" />

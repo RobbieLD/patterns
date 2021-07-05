@@ -4,11 +4,11 @@ using Patterns.Behavioral.Stratergy;
 
 namespace Patterns.Runner
 {
-    public class StratergyRunner : IRunner
+    public class StratergyRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** STRATERGY PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             IBike mountainBike = new MountainBike();
 

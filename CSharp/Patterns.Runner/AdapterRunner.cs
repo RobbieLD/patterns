@@ -4,11 +4,11 @@ using System.Collections.Generic;
 
 namespace Patterns.Runner
 {
-    public class AdapterRunner : IRunner
+    public class AdapterRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** ADAPTER PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             // Make a list of all the different adapters we have, each containing their own provider
             // which they are adapter

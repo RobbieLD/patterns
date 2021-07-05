@@ -3,11 +3,11 @@ using Patterns.Behavioral.Iterator;
 
 namespace Patterns.Runner
 {
-    public class IteratorRunner : IRunner
+    public class IteratorRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** ITERATOR PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             BikeProductionLine productionLine = new BikeProductionLine(new Bike
             {

@@ -3,11 +3,11 @@ using Patterns.Creational.Singleton;
 
 namespace Patterns.Runner
 {
-    public class SingletonRunner : IRunner
+    public class SingletonRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** SINGLETON PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             // Get the world records register instance
             BikeWorldRecordRegister register = BikeWorldRecordRegister.Instance;

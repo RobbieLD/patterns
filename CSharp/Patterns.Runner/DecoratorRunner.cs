@@ -3,11 +3,11 @@ using System;
 
 namespace Patterns.Runner
 {
-    public class DecoratorRunner : IRunner
+    public class DecoratorRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** DECORATOR PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             // Create Some Bikes
             MountainBike mBike = new MountainBike("Red", 16, 85, 2);

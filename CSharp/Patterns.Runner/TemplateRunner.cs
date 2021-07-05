@@ -3,12 +3,12 @@ using Patterns.Behavioral.Template;
 
 namespace Patterns.Runner
 {
-    public class TemplateRunner : IRunner
+    public class TemplateRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** TEMPLATE PATTERN ***{Environment.NewLine}");
-            
+            ShowTitle();
+
             // Make a mountain bike workshop to build some mountain bikes
             MountainBikeShop mountainBikesRUS = new MountainBikeShop();
             mountainBikesRUS.BuildBike();

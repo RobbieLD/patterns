@@ -4,11 +4,11 @@ using Patterns.Common;
 
 namespace Patterns.Runner
 {
-    public class FlyweightRunner : IRunner
+    public class FlyweightRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** FLYWEIGHT PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             string[] colors = { "green", "blue", "red" };
 

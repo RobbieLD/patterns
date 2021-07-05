@@ -3,11 +3,11 @@ using Patterns.Structural.Compisite;
 
 namespace Patterns.Runner
 {
-    public class CompositeRunner : IRunner
+    public class CompositeRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** COMPOSITE PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             PrototypeBike basicBike = new PrototypeBike("BasicBike");
 

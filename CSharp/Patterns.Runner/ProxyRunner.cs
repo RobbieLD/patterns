@@ -3,11 +3,11 @@ using Patterns.Structural.Proxy;
 
 namespace Patterns.Runner
 {
-    public class ProxyRunner : IRunner
+    public class ProxyRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** PROXY PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             IBikeStockChecker proxy = new BikeStockCheckerProxy();
 

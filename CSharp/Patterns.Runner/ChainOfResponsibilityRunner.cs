@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 namespace Patterns.Runner
 {
-    public class ChainOfResponsibilityRunner : IRunner
+    public class ChainOfResponsibilityRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** CHAIN OF RESPONSIBILITY PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             // Create the links in the chain
             BikeShop mountainBikes = new MountainBikeShop("Tom's Mountain Bikes");

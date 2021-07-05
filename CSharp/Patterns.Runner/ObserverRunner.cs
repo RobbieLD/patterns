@@ -4,11 +4,11 @@ using Patterns.Behavioral.Observer;
 
 namespace Patterns.Runner
 {
-    public class ObserverRunner : IRunner
+    public class ObserverRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** OBSERVER PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             // Make a new bike manufacturer;
             IBikeManufacturer manufacturer = new BikeManufacturer();

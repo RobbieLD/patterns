@@ -3,11 +3,11 @@ using Patterns.Structural.Facade;
 
 namespace Patterns.Runner
 {
-    public class FacadeRunner : IRunner
+    public class FacadeRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** FACADE PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             // Make the various part suppliers
             TomsPartsSupplier tom = new TomsPartsSupplier();

@@ -3,11 +3,11 @@ using Patterns.Structural.Bridge;
 
 namespace Patterns.Runner
 {
-    public class BridgeRunner : IRunner
+    public class BridgeRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** BRIDGE PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             AbstractRider rider = new Rider("Rob");
 

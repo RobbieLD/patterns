@@ -3,11 +3,11 @@ using Patterns.Creational.AbstractFactory;
 
 namespace Patterns.Runner
 {
-    public class AbstractFactoryRunner : IRunner
+    public class AbstractFactoryRunner : BaseRunner, IRunner
     {
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}*** ABSTRACT FACTORY PATTERN ***{Environment.NewLine}");
+            ShowTitle();
 
             IBikeShop mShop = new MountainBikeShop();
             IBikeShop rShop = new RoadBikeShop();
