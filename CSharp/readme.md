@@ -1,0 +1,2 @@
+# Getting Started
+To get started using this library simply open it up Visual Studio (2019+) and build the solution. You can then either run the `Program.cs` to run all the examples which impliment the `IRunner` interface. There are also tests which can be run though visual studio to run smaller parts of the patterns.

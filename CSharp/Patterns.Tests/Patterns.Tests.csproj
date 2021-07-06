@@ -39,6 +39,7 @@
     <ProjectReference Include="..\Patterns.Behavioral.State\Patterns.Behavioral.State.csproj" />
     <ProjectReference Include="..\Patterns.Behavioral.Stratergy\Patterns.Behavioral.Stratergy.csproj" />
     <ProjectReference Include="..\Patterns.Behavioral.Template\Patterns.Behavioral.Template.csproj" />
+    <ProjectReference Include="..\Patterns.Structural.Twin\Patterns.Structural.Twin.csproj" />
   </ItemGroup>
 
   <ItemGroup>
