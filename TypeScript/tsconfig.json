@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "outDir": "./dist",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "strict": true,
+        "watch": true
+    },
+    "compileOnSave": true,
+    "exclude": ["./dist"]
+}

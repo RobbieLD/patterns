@@ -301,3 +301,11 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+
+# Typescript output
+dist/
+
+
+# NPM package lock
+package-lock.json
