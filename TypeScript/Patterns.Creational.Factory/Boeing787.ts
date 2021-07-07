@@ -3,8 +3,8 @@ import IAircraft from "./IAircraft";
 class Boeing787_10 implements IAircraft {
     constructor(){}
 
-    TakeOff(): void {
-        throw new Error("Method not implemented.");
+    DisplayAircraftData(): string {
+        return "Boeing 787 10";
     }
 }
 
