@@ -1,7 +1,7 @@
 # Common Software Patterns
-A library demonstrating various software patterns for educational purposes with examples in c#. These pattern exampel are to try and give a single reference for most of the commonly used software patterns. It's important to note that these patterns can often vary in their implimentation particularly around the use of interfaces and abstract classes. These examples are simply exampels of one way to do these patterns and are meant more to convey the genreal idea behind the pattern than an exact solution for implimenting them. 
+A library demonstrating various software patterns for educational purposes with examples in C# and TypeScript. These pattern examples are to try and give a single reference for most of the commonly used software patterns. It's important to note that these patterns can often vary in their implimentation particularly around the use of interfaces and abstract classes. These examples are simply one way to do these patterns and are meant more to convey the genreal idea behind the pattern than an exact solution for implimenting them. Software patterns them selves are not copy and pastable solutions to problems but principals which can be applied to a wide range of problems. It's to try and convey the principal rather than the exact solution that this library has been created. 
 
-These patterns are intented to be read and used as guides however for working exampels a runner in `Program.cs` is provided for each one. This means you can run the project and debug to see each pattern in use. There are also tests for each pattern showing the important aspects of each pattern and how to test for it. Note that these tests are not exhaustive and more given as examples of how to test the pattern.
+These patterns are intented to be read and used as guides however for working examples a runner in `Program.cs` is provided for each one. This means you can run the project and debug to see each pattern in use. There are also tests for each pattern showing the important aspects of each pattern and how to test for it. Note that these tests are not exhaustive and more given as examples of how to test the pattern.
 
 ## Behavioral Patterns
 
@@ -132,6 +132,12 @@ For example imagine several different type of bikes. As long they are all subscr
 The twin pattern is designed to allow a simulation of multiple inheritance when the language doesn't support it. In the case of c# a class can only ininherit from a single parent class. In order to get around this we use the twin patter. Here we have two parent classes which are inherited by two child classes. These child classes are the twin classes which then hold instance varaibles of each other so they can access the methods from the other parent classes.
 
 For example image a hybrid bike which needs to inherit methods from both a mountain bike and a road bike. Here we will extend both road and mountain bikes and these new inherited bikes have instance variables which point to each other.
+
+### Marker
+
+The marker pattern is a means of indicating a particular class contains certain capabilities which can be checked at run time. 
+
+For example consider a bike race. We have a lot of bikes entering but there are specific requirements around what bikes can enter the race. The details of what constitues a race worthy bikes is up to us but we need a way of indicating which bikes can enter the race so that the race marshals know who to allow in and who to keep out. We can achive this by making an empty interface which the bikes who are allowed into the race can inherit. It's important to note that the .Net guidelines discourage the use of an empty marker interface and encourage the use of attributes instead. In the code example for this pattern we will show both ways because there are certain advantages to using empty marker interfaces over attributes which is include ease of use and also support for generics.
 
 ### Flyweight
 

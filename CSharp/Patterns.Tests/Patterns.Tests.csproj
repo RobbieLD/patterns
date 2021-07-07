@@ -33,6 +33,7 @@
     <ProjectReference Include="..\Patterns.Behavioral.Memento\Patterns.Behavioral.Memento.csproj" />
     <ProjectReference Include="..\Patterns.Behavioral.Observer\Patterns.Behavioral.Observer.csproj" />
     <ProjectReference Include="..\Patterns.Creational.Prototype\Patterns.Creational.Prototype.csproj" />
+    <ProjectReference Include="..\Patterns.Structural.Marker\Patterns.Structural.Marker.csproj" />
     <ProjectReference Include="..\Patterns.Structural.Proxy\Patterns.Structural.Proxy.csproj" />
     <ProjectReference Include="..\Patterns.Behavioral.PublishSubscriber\Patterns.Behavioral.PublishSubscriber.csproj" />
     <ProjectReference Include="..\Patterns.Creational.Singleton\Patterns.Creational.Singleton.csproj" />

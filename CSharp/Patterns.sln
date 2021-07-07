@@ -64,11 +64,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Visitor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Concurrency.Lock", "Patterns.Concurrency.Lock\Patterns.Concurrency.Lock.csproj", "{D23612B9-11E9-46A9-8B73-D8C7CE63E548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Behavioral.Specification", "Patterns.Behavioral.Specification\Patterns.Behavioral.Specification.csproj", "{E5452276-3743-4458-8D6D-4AEEEE0954E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Specification", "Patterns.Behavioral.Specification\Patterns.Behavioral.Specification.csproj", "{E5452276-3743-4458-8D6D-4AEEEE0954E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Behavioral.Servant", "Patterns.Behavioral.Servant\Patterns.Behavioral.Servant.csproj", "{BF9D57CA-69DA-4616-AE74-D9B2E7C4E2FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Behavioral.Servant", "Patterns.Behavioral.Servant\Patterns.Behavioral.Servant.csproj", "{BF9D57CA-69DA-4616-AE74-D9B2E7C4E2FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Structural.Twin", "Patterns.Structural.Twin\Patterns.Structural.Twin.csproj", "{DA2016C8-7E22-4E08-B72B-F0B3F0D57E2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Structural.Twin", "Patterns.Structural.Twin\Patterns.Structural.Twin.csproj", "{DA2016C8-7E22-4E08-B72B-F0B3F0D57E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Structural.Marker", "Patterns.Structural.Marker\Patterns.Structural.Marker.csproj", "{957A715E-DAEC-44D2-B824-3923EC340198}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -200,6 +202,10 @@ Global
 		{DA2016C8-7E22-4E08-B72B-F0B3F0D57E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA2016C8-7E22-4E08-B72B-F0B3F0D57E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA2016C8-7E22-4E08-B72B-F0B3F0D57E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957A715E-DAEC-44D2-B824-3923EC340198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957A715E-DAEC-44D2-B824-3923EC340198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957A715E-DAEC-44D2-B824-3923EC340198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957A715E-DAEC-44D2-B824-3923EC340198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
