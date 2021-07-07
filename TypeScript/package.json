@@ -7,7 +7,8 @@
     "test": "jest --roots ./dist",
     "watch-tests": "jest --watch --roots ./dist",
     "build": "tsc",
-    "abstract-factory": "node ./dist/Patterns.Creational.AbstractFactory/index.js"
+    "abstract-factory": "node ./dist/Patterns.Creational.AbstractFactory/index.js",
+    "factory": "node ./dist/Patterns.Creational.Factory/index.js"
   },
   "author": "",
   "license": "ISC",

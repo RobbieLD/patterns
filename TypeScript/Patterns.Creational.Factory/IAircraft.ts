@@ -1,5 +1,5 @@
 interface IAircraft {
-    TakeOff(): void;
+    DisplayAircraftData(): string;
 }
 
 export default IAircraft;
