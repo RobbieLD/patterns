@@ -6,3 +6,6 @@
 To run specific pattern examples, you can use the following:
 ## Abstract Factory
 `npm run abstract-factory`
+
+## Factory
+`npm run factory`
